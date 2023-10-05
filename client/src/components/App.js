@@ -9,7 +9,7 @@ function App() {
     <div className='App'>
       <Navbar />
 
-      <div className="square border border-3 border-secondary" style={{margin: '30px 150px', borderColor: 'blue' , borderWidth: 2, height:300}}>
+      <div className="square border border-3 border-secondary" style={{margin: '30px 150px', borderColor: 'blue' , borderWidth: 2, height:300, padding:"40px"}}>
         <DragAndDrop items={items} />
       </div>
       

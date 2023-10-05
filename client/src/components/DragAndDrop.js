@@ -13,7 +13,10 @@ function DragAndDrop() {
       {
         isDragActive ?
           <p>Drop the files here ...</p> :
-          <p>Drag 'n' drop some files here, or click to select files</p>
+          <div>
+            <p style={{fontSize:70, fontWeight: 'bold', color: '#888888', paddingBottom:"20px"}}>Drag and drop..</p>
+            <button type="button" class="btn btn-outline-secondary">Select File</button>
+          </div>
       }
     </div>
   )
